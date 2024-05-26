@@ -146,4 +146,4 @@ export const validateForgotPassword = validator(forgotPasswordSchema);
 export const validateResetPassword = validator(resetPasswordSchema);
 export const validateDoctorSchema = validator(registerDoctorSchema);
 export const validateResetSystemGeneratedPassword = validator(resetSystemGeneratedPasswordSchema);
-export const validateReservation = validate(createReservationSchema);
+export const validateReservation = validator(createReservationSchema);
